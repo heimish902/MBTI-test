@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="https://sojoong.joins.com/wp-content/uploads/sites/4/2018/12/bodo_still06.jpg" />
+    <meta property="og:description" content="나랑 꼭 닮은 짱구 속 캐릭터는 누구일까요?" />
+    <title>짱구 캐릭터 MBTI</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="onlyMobile">
+        <span>Your screen is too big TT</span>
+      </div>
+      <!-- <audio src="audio/bgm.mp4" id="bgm" autoplay></audio> -->
+
+      <section class="start">
+        <h1>
+          나랑 닮은 짱구 캐릭터는<br />
+          누구 일까요?
+        </h1>
+        <button type="button" class="btn">테스트 시작하기!</button>
+      </section>
+
+      <section class="question">
+        <div class="inner">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar"></div>
+          </div>
+          <h2 class="title" id="title">문제</h2>
+          <input type="hidden" id="type" value="EI" />
+          <button type="button" id="A" class="btn">Info</button>
+          <button type="button" id="B" class="btn">Info</button>
+        </div>
+      </section>
+
+      <section class="result">
+        <h2 class="name">캐릭터 이름</h2>
+        <div class="image-box">
+          <img src="img/estj.png" alt="캐릭터 이름" />
+        </div>
+        <h3 class="explain-title">캐릭터 설명</h3>
+        <p class="explain">설명</p>
+
+        <div class="suit">
+          <h2>나랑 잘 맞아요!</h2>
+          <div class="match">
+            <img id="good-match" src="img/infp.png" alt="캐릭터 이름" />
+            <h3 class="good">캐릭터 이름</h3>
+          </div>
+        </div>
+
+        <div class="suit">
+          <h2>거리두기가 필요해요..</h2>
+          <div class="match">
+            <img id="bad-match" src="img/infp.png" alt="캐릭터 이름" />
+            <h3 class="bad">캐릭터 이름</h3>
+          </div>
+        </div>
+
+        <div class="addthis_inline_share_toolbox"></div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+        <a id="restart" href="index.html">테스트 다시하기</a>
+      </section>
+    </div>
+    <input type="hidden" id="EI" value="0" />
+    <input type="hidden" id="SN" value="0" />
+    <input type="hidden" id="TF" value="0" />
+    <input type="hidden" id="JP" value="0" />
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-606706f8ff070e8d"></script>
+  </body>
+</html>

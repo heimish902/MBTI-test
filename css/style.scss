@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'YanoljaYacheR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-size: 20px;
+$font-family: 'YanoljaYacheR';
+$button-color: #ffc107;
+$white-color: #fff;
+
+@mixin flex($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+.btn {
+  width: 75%;
+  padding: 25px 10px;
+  margin: 0 auto;
+  font-family: $font-family;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 10px;
+  background-color: $button-color;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  font-size: $font-size;
+  background: url('../img/bg.jpg') no-repeat center / cover;
+}
+
+#wrap {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* mobile only */
+#onlyMobile {
+  @include flex(center, center);
+  width: 100vw;
+  height: 0;
+  background-color: $button-color;
+  overflow: hidden;
+
+  span {
+    font-size: 1.5em;
+  }
+}
+
+.start {
+  @include flex(center, center);
+  height: 100vh;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* section */
+section .inner {
+  @include flex(center, flex-start);
+  flex-direction: column;
+}
+
+/* question */
+.question {
+  display: none;
+  height: 100vh;
+
+  .inner {
+    width: 90%;
+    min-height: 80vh;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+.progress {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #ddd;
+  overflow: hidden;
+
+  .progress-bar {
+    width: calc(100 / 12 * 1%);
+    height: 15px;
+    background-color: #f19409;
+  }
+}
+.btn {
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+/* result */
+.result {
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 24px;
+  }
+  #onlyMobile {
+    height: 100vh;
+  }
+}
