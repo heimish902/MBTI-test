@@ -1,6 +1,6 @@
 # MBTI-test
 
-> 나와 닮은 짱구 캐릭터는 누구일까 /n 짱구 캐릭터 MBTI 테스트 만들기
+> 나와 닮은 짱구 캐릭터는 누구일까?
 
 <!-- <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=HTML5" />
 <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=CSS3" />
