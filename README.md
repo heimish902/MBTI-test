@@ -29,6 +29,10 @@
 - result css 완성하기 ✔ 2022-01-06
 - result.js 모듈 연결하기 ✔ 2022-01-06
 
+필요 수정 사항 
+- result 이미지 크기 조절 필요 
+- 해상도 낮은 이미지 변경하기 
+- 
 ## Meta
 
 park ji ho – [hemish902@tistory.com](https://heimish902@tistory.com) - frontend_web@kakao.com
