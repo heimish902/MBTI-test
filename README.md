@@ -25,7 +25,7 @@
 - button color 파란색으로 나오는것 수정하기
 - 모바일에서 사이즈 확대되는 것 막기
 
-## equirements
+## Requirements
 
 남은 제작 상황
 - result css 완성하기 ✔ 2022-01-06
