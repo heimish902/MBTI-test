@@ -15,7 +15,7 @@
       <div id="onlyMobile">
         <span>Your screen is too big TT</span>
       </div>
-      <!-- <audio src="audio/bgm.mp4" id="bgm" autoplay></audio> -->
+      <audio src="audio/bgm.mp4" id="bgm" autoplay></audio>
 
       <section class="start">
         <h1>
@@ -40,31 +40,33 @@
       <section class="result">
         <h2 class="name">캐릭터 이름</h2>
         <div class="image-box">
-          <img src="img/estj.png" alt="캐릭터 이름" />
+          <img class="mbti-image" src="img/estj.png" alt="캐릭터 이름" />
         </div>
-        <h3 class="explain-title">캐릭터 설명</h3>
-        <p class="explain">설명</p>
+        <div class="text">
+          <p class="character">캐릭터 설명</p>
+          <p class="explain">설명</p>
+        </div>
 
         <div class="suit">
           <h2>나랑 잘 맞아요!</h2>
           <div class="match">
-            <img id="good-match" src="img/infp.png" alt="캐릭터 이름" />
-            <h3 class="good">캐릭터 이름</h3>
+            <img class="good-match" src="img/infp-good.jpg" alt="캐릭터 이름" />
+            <p class="good">캐릭터 이름</p>
           </div>
         </div>
 
         <div class="suit">
           <h2>거리두기가 필요해요..</h2>
           <div class="match">
-            <img id="bad-match" src="img/infp.png" alt="캐릭터 이름" />
-            <h3 class="bad">캐릭터 이름</h3>
+            <img class="bad-match" src="img/infp-bad.jpg" alt="캐릭터 이름" />
+            <p class="bad">캐릭터 이름</p>
           </div>
         </div>
 
-        <div class="addthis_inline_share_toolbox"></div>
+        <div class="addthis_inline_share_toolbox share"></div>
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
 
-        <a id="restart" href="index.html">테스트 다시하기</a>
+        <a class="restart btn" href="index.html">테스트 다시하기</a>
       </section>
     </div>
     <input type="hidden" id="EI" value="0" />
