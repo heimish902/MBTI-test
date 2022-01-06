@@ -24,7 +24,7 @@
 필요 수정사항
 - result css 완성하기 ✔ 2022-01-06
 - result.js 모듈 연결하기 ✔ 2022-01-06
-- css 수정 
+- button color 파란색으로 나오는것 수정하기
 
 ## Meta
 
