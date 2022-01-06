@@ -16,9 +16,14 @@
 - HTML 완료
 - 시작페이지, 문답 css 완료 
 
+2022-01-06
+- result css 완료 
+- resul.js 모듈화 완료 
+- 변수 tags.js로 묶어서 분리 모듈화함
+
 필요 수정사항
-- result css 완성하기
-- result.js 모듈 연결하기
+- result css 완성하기 ✔ 2022-01-06
+- result.js 모듈 연결하기 ✔ 2022-01-06
 
 ## Meta
 
