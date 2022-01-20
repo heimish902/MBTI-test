@@ -10,6 +10,14 @@
 
 ## Usage example
 
+pc 화면 
+![1642669492168](https://user-images.githubusercontent.com/93975793/150307678-22546e6d-f19d-43d2-b9c1-207524179dab.png)
+
+모바일 
+![1642669514168](https://user-images.githubusercontent.com/93975793/150307747-581a4ba5-de95-451b-97ec-e852815b95e6.png)
+
+![1642669555796](https://user-images.githubusercontent.com/93975793/150307777-e0217d8d-e0d8-400c-86c0-7ae5690940a3.png)
+
 ## Release History
 
 2022-01-04
